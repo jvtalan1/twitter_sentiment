@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="icon" href="items/logo.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styling/home-style.css">
+<title>Twitter Sentiment Analysis</title>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="topbar">
+		<div class="container">
+			<!--
+			<div class="navbar-container">
+				<ul class="nav nav-tabs" role="tablist">
+					<li>
+						<a class="nav nav-tabs" href="#"><span class="glyphicon glyphicon-home"></span><span class="nav-text">Home</span></a></li>
+					<li>
+						<a class="nav nav-tabs" href="#"><span class="glyphicon glyphicon-bell"></span><span class="nav-text">Notifications</span></a></li>
+					<li>
+						<a class="nav nav-tabs" href="#"><span class="glyphicon glyphicon-envelope"></span><span class="nav-text">Messages</span></a></li>
+				</ul>
+			</div>
+			-->
+			<img src="items/Twitter_bird_logo_2012.png" width="25px" height="20px" id="twitter-logo">
+		</div>
+	</div>
+
+	<div id="page">
+			<div class="stream">
+				<h3 id="header">Tweets</h3>
+				<!--
+				<div class="tweet" id="tweet">
+					<div class="profile">
+						<div class="profile_image"><img src="" class="profile_image"></div>
+					</div>
+					<div class="tweet_details">
+						<div class="name"><a href="#" class="name">asd</a></div>
+						<div class="screen_name">def</div>
+						<div class="created_at">xcv</div>
+						<div class="text">bvf</div>
+					</div>
+				
+					<div class="icon-holder">
+					<img src="" class="emoticon">
+					</div> 
+
+				</div>
+				-->
+			</div>
+
+			<div class="nav-button" id="nav-button">
+				<button type="button" id="previous-btn" class="btn btn-primary" onclick="previous()">Previous</button>
+				<button type="button" id="next-btn" class="btn btn-primary" onclick="next()">Next</button>
+				
+				<button type="button" id="ShowMood-btn" class="btn btn-default active" onclick="showMood()">Show Moods</button>
+				<button type="button" id="HideMood-btn" class="btn btn-default" onclick="hideMood()">Hide Moods</button>
+				<div id="footer">Twitter Sentiment Analysis&nbsp;&reg;</div>
+			</div>
+	</div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="data/data_3min.json"></script>
+<script type="text/javascript" src="data/corpus.json"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+<script src="script/script.js"></script>
+
+</html>

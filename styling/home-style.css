@@ -1,0 +1,205 @@
+body {
+	background-color: rgb(245, 248, 250);
+}
+
+#wrapper {
+	height: auto;
+	width: 100%;
+}
+
+#topbar {
+	height: 45px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0, 0, 0, 0.1);
+	box-shadow:  0 4px 2px -2px gray;
+	position: fixed;
+	z-index: 1000;
+}
+
+.container {
+	width: 88%;
+	height: 45px;
+	margin: auto;
+}
+
+.navbar-container {
+	margin-left: -15px !important;
+	width: 380px;
+	float: left;
+}
+
+.glyphicon {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	color: rgb(102, 117, 127);
+}
+
+.glyphicon:hover {
+	color: rgb(0, 132, 180);
+}
+
+.nav-text {
+	position: relative;
+	float: right;
+	font-size: 12px;
+	top: 5px;
+	color: rgb(102, 117, 127);
+}
+
+#twitter-logo {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+}
+
+.nav-tabs {
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+
+#header {
+	text-align: center;
+}
+
+#page {
+	width: 100%;
+	min-height: 700px;
+	height: auto;
+	overflow: auto;
+	background-color: #5aaceb;
+}
+
+.stream {
+	position: relative;
+	top: 55px;
+	min-width: 600px;
+	max-width: 700px;
+	width: 52%;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px 10px 0 0;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.tweet {
+	position: relative;
+	padding: 10px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-color: rgba(0, 0, 0, 0.1);
+	display: table;
+	width: 100%;
+}
+
+.tweet:hover {
+	cursor: pointer;
+	background-color: rgb(232, 245, 253);
+}
+
+.name {
+	margin-right: 5px;
+	font-weight: bold;
+	float: left;
+}
+
+.screen_name {
+	margin-right: 5px;
+	float: left;
+	color: rgb(136, 153, 185);
+}
+
+.created_at {
+	float: left;
+	color: rgb(136, 153, 185);
+}
+
+.text {
+	clear: both;
+}
+
+.profile {
+	margin-right: 10px;
+	width: 80px;
+	height: auto;
+	float: left;
+}
+
+.profile_image {
+	width: 80px;
+	height: 80px;
+	border-radius: 7px;
+	background-image: url('/items/default.jpg');
+}
+
+.tweet_details {
+	width: 80%;
+	height: auto;
+	float: left;
+}
+
+.icon-holder {
+	position: absolute;
+	top: 0;
+	right: -10px;
+	z-index: 10;
+	float: right;
+}
+
+.emoticon {
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	transition: all .2s ease-in-out;
+	border-radius: 100%;
+	box-shadow: 2px 4px 4px -1px gray;
+	transform: rotate(10deg);
+}
+
+.emoticon:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.nav-button {
+	min-width: 600px;
+	max-width: 700px;
+	width: 52%;
+	margin: auto;
+	margin-top: 55px;
+	border-top-width: 2px;
+	padding: 5px;
+	height: 70px;
+	border-bottom: solid;
+	background-color: rgb(240, 240, 240);
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+#previous-btn {
+	float: left;
+	margin-right: 10px;
+}
+
+#next-btn {
+	float: left;
+}
+
+#ShowMood-btn {
+	margin-left: 5px;
+	float: right;
+}
+
+#HideMood-btn {
+	float: right;
+}
